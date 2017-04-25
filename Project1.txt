@@ -1,0 +1,22 @@
+Write a program (in C++ or Java) that asks the user for the number of linear equations to solve (let’s say n <=10) using the scaled partial pivoting method for Gaussian elimination. Ask the user if they would like to enter the coefficients of each equation or would like to provide a file name that has a matrix which has the equation coefficients with the right hand column vector added to this coefficient matrix. E.g. the contents of a file for 3 linear equations 2x+3y-z = 4, 3x+y+2z=5, x+4z=1 will be
+
+2 3 -1 4
+
+3 1 2 5
+
+1 0 4 1
+
+The output of your program should show the updated matrix (in the form above) after every pivotal row and finally show the solution in the following format:
+
+X=2
+
+Y=2
+
+Z=1  
+
+ 
+
+Extra credit: Test your program with large values of n, say like 20, 50, 100 etc. Generate the coefficients randomly for such large equations. Comments on the time taken by your program as the number of equations increase. Do you run into any other problems? Write a one page report on this extra credit part.
+
+Please upload the code, the executable and the report to blackboard. Please bring a print out of the report (with your name and class and project number on it) to class as well if you attempt the extra credit.
+
